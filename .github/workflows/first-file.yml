@@ -29,6 +29,5 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          This is multiline script!   1
-          This is multiline script   2
           echo test, and deploy your project.
+          echo new multiline
