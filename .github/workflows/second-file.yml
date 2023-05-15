@@ -6,7 +6,7 @@ on:
   workflow_dispatch: 
 
 jobs:
-  firstjob:
+  secondjob:
     runs-on: windows-latest
 
     steps:
@@ -15,4 +15,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: First script 
-        run: echo This is VS code file
+        run: echo This is VS code file for second workflow
