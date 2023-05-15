@@ -1,0 +1,17 @@
+name: Scecond yaml file
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  firstjob:
+    runs-on: windows-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: First script 
+        run: echo This is VS code file
